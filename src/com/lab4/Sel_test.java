@@ -26,11 +26,11 @@ public class Sel_test {
             System.out.println(title);
 
         // Form controls
-        String tag_name ="Sara";
+        String tag_name ="Tasneem";
         tag_name = driver.findElement(By.cssSelector("#first-name")).getText();
         System.out.println(tag_name);
 
-        String tag_name1 ="Taha";
+        String tag_name1 ="Hesham";
         tag_name1 = driver.findElement(By.cssSelector("#last-name")).getText();
         System.out.println(tag_name1);
 
